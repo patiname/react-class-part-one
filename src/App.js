@@ -2,6 +2,7 @@ import ClassComponent from "./components/ClassComponent";
 import FnComponent from "./components/FnComponent";
 import MapFn from "./components/MapFn";
 import PlusBtn from "./components/PlusBtn";
+import UseState from "./components/UseState";
 
 const menu = [
   {
@@ -29,9 +30,11 @@ function App() {
       <FnComponent name="side" age="12" />
       <ClassComponent menu="pizza" side="coke" />
       <ClassComponent menu="치킨" side="맥주" /> */}
-      <MapFn menu={menu} />
+      {/* <MapFn menu={menu} /> */}
 
       <PlusBtn />
+
+      <UseState />
     </div>
   );
 }
