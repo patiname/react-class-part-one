@@ -3,9 +3,12 @@ import React, { Component } from "react";
 class ClassComponent extends Component {
   render() {
     //console.log(this.props);
-    const menu = this.props.menu;
-    const side = this.props.side;
+    // const menu = this.props.menu;
+    // const side = this.props.side;
     //console.log(menu, side);
+
+    const { menu, side } = this.props;
+    /* console.log(menu, side); */
 
     return (
       <div>
